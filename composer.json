@@ -1,0 +1,21 @@
+{
+  "name": "foobar/truncator",
+  "description": "Truncates text, preserves HTML",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "minimum-stability": "dev",
+  "require": {
+    "craftcms/cms": "^3.0.0-alpha.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "foobar\\truncator\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "truncator",
+    "name": "Truncator",
+    "developer": "Adrian Calton",
+    "developerUrl": "https://developer-url.com"
+  }
+}
